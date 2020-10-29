@@ -1,3 +1,1 @@
-# firstpythonapp
-
-E-commerce de alta qualidade rsrs
+Website de compras com Django e Python
