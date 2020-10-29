@@ -83,7 +83,7 @@ message["From"] = sender_email
 message["To"] = email_cliente
 
 # Create the plain-text and HTML version of your message
-text = "Olá, você acabou de comprar no nosso site https://magazinedomarcao.azurewebsites.net\n" \
+text = "Obrigado por comprar conosco!\n" \
        "Se você recebeu este e-mail significa que tudo ocorreu corretamente!\n"\
        "O seu " + nome_produtos[codigo_produto_checkout] + " já está sendo preparado para envio, agora é só aguardar!!\n"\
        "Seu código de compra é: " + str(id_compra) + " utilize para qualquer assunto relacionado à esse pedido.\n"
