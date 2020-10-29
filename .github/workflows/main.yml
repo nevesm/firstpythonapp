@@ -2,10 +2,10 @@
   uses: Azure/appservice-build@v2
   with:
     # Relative path (within the repository) to the source directory of the project you want to build; if no value is provided for this, the root of the repository ("GITHUB_WORKSPACE" environment variable) will be built.
-    source-directory: # optional
+    source-directory: master # optional
     # Programming platform used to build the web app; if no value is provided, Oryx will determine the platform to build with. The supported values are "dotnet", "nodejs", "php" and "python".
-    platform: # optional
+    platform: python # optional
     # Version of the programming platform used to build the web app; if no value is provided, Oryx will determine the version needed to build the repository.
     platform-version: # optional
     # The directory where the build output has to be put.
-    output-directory: # optional
+    output-directory: waws-prod-cq1-013.publish.azurewebsites.windows.net:443 # optional
