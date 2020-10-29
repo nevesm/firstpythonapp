@@ -3,6 +3,7 @@ codigo_produtos = ['001', '002', '003']
 nome_produtos = ['BONE NEW ERA SNAPBACK PRETO - TAM REGULAVEL', 'TENIS NIKE AIR MAX 90 - TAM 41', 'BIQUINI DE PRAIA ROSA - TAM M']
 preco_produtos = [50.00, 399.99, 25.99]
 
+
 #TERMINAL (tela do cliente)
 nome_loja = ("Magazine do Marcao")
 print("                                          ")
